@@ -2,8 +2,8 @@
 
 LE PAGINE PRINCIPALI SONO:
 
-home.php
-ACCEDI.PHP
-REGISTRATI.PHP
-EFFETTUASPEDIZIONI.PHP
-VISUALIZZASPEDIZIONI.PHP
+home.php ,
+accedi.php ,
+registrati.php ,
+effettuaSpedizioni.php ,
+visualizzaSpedizioni.php.
