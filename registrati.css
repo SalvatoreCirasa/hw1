@@ -1,0 +1,230 @@
+body {
+    color: yellow;
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+    background-color: black;
+    font-style: normal; 
+    line-height: 25px;
+    margin:0;
+    text-transform: uppercase;
+    height: 1900px;
+}
+
+@media (max-width:500px){
+    body{
+        height: 1500px;
+    }
+}
+
+header{
+    height: 350px;
+    background-image: url(https://www.wallpapertip.com/wmimgs/18-182348_flying-email-525062410-ss-email-marketing-background.jpg);
+    display: flex; 
+    background-size:cover;
+    background-position: center;
+    justify-content: center;  
+    align-items: center; 
+    position: relative;
+    z-index: -1;
+}
+
+@media (max-width:500px){
+    header{
+        height: 200px;
+        line-height: 1.2;
+    }
+}
+
+header h1 {
+    letter-spacing: 5px; 
+    text-shadow: -5px 0 black, 0 5px black, 5px 0 black, 0 -5px black;
+    font-size: 150px;
+    font-weight: normal;
+    z-index: 1;
+    width: 950px;
+    line-height: 150px;
+    text-align: center;
+
+}
+
+.Titolo {
+    letter-spacing: 5px; 
+    background-color: yellow;
+    color: black;
+    font-size: 100px;
+    font-weight: normal;
+    line-height: 150px;
+    text-align: center;
+}
+
+
+@media (max-width:500px){
+    header h1{
+        line-height: 50px;
+        font-size: 3em;
+        letter-spacing: 8px;
+        text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    }
+}
+
+@media (max-width:500px){
+    .titolo{
+        line-height: 50px;
+        font-size: 2em;
+        letter-spacing: 8px;
+        text-shadow: none;
+    }
+}
+
+
+#overlay {
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3); 
+}
+
+main{
+    height: 60%;
+    border: 5px solid white;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media (max-width:500px){
+    main{
+        height: 70%;
+        display: flex;
+        justify-content: space-around;
+        padding-left: none;
+        padding-right: none;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+.subscribe{
+    height: 100%;
+}
+
+label{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0 5px 0;
+    color: white;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+@media (max-width:500px){
+    label{
+        font-size: 25px;
+        margin-top: 60px;
+        margin-right: none;
+        margin-left: none;
+        margin-bottom: 10px;
+    }
+}
+
+form{
+    height: 85%;
+}
+
+input{
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+}
+
+select{
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+}
+
+.error{
+    position: absolute;
+    color: red;
+    right: 16%;
+    letter-spacing: 2px;
+}
+
+.okay{
+    position: absolute;
+    color: lime;
+    right: 16%;
+    letter-spacing: 2px;
+}
+
+#submit{
+    display: flex;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    cursor: pointer;
+    background-color: yellow;
+}
+
+
+.errore{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color:red;
+    margin-bottom: 30px;
+}
+
+.login{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+@media (max-width:500px){
+   .login{
+        margin-top: 100px;
+    }
+}
+
+
+a{
+    margin-left: 10px;
+    color: lime;
+}
+
+footer{
+    display: flex;
+    height: 50px;
+    background-color: yellow;
+    color: black;
+    letter-spacing: 5px; 
+    text-align: center;
+    border: black solid;
+    border-width: 5px;
+    justify-content: center;
+}
+
+@media (max-width:500px){
+    footer{
+        border:none;
+    }
+}
+
+.hidden{
+    display: none;
+}
